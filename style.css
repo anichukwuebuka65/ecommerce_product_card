@@ -426,6 +426,11 @@ body > div {
     transform : translateX(-50%);
 }
 
+.product__image .next,
+.product__image .previous {
+    display: none;
+}
+
 @media(max-width: 768px) {
     .modal {
         display: none;
@@ -549,4 +554,9 @@ body > div {
         left: 2rem;
         transform: translateY(-50%);
     }
-}
+
+    .product__image .next,
+    .product__image .previous {
+        display: flex;
+    }
+} 
