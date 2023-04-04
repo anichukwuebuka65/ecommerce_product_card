@@ -53,7 +53,7 @@ prevNxtBtns.forEach(btn => btn.addEventListener("click",(e) => {
 
 modalThumbnail.forEach(thumbnail => thumbnail.addEventListener("click",(e) => {
     modal.style.display = "flex";
-    modalLargeImg.src = `images/${images[e.target.id - 1]}`;
+    modalLargeImg.src = `images/${images[e.target.dataset.number - 1]}`;
   
 }))
 
