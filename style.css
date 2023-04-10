@@ -367,7 +367,7 @@ body > div {
 
 .modal__image-big {
     display: block;
-    height: 70vh;
+    width: 100%;
     margin-bottom: 1.75rem;
     border-radius: 1rem; 
 }
@@ -380,7 +380,7 @@ body > div {
 }
 
 .modal__wrapper {
-    max-width: min(100%, 28.5rem);
+    max-width: 27.5rem;
 }
 
 .modal__wrapper > div:first-child {
@@ -543,6 +543,10 @@ body > div {
     .menu__btn {
         display: block;
         cursor: pointer;
+    }
+
+    .product__image {
+        position: relative;
     }
 
     .product__image .next {
